@@ -1,0 +1,141 @@
+/*
+
+	ARTG2260
+	Nia Naval
+	niamnaval@gmail.com
+	Assignment 6.0
+	Nia's Portfolio Site
+
+*/
+
+html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h3, p {
+	font-family: helvetica;
+}
+
+a:link{
+	color:#000;
+	text-decoration: none;
+}
+
+a:visited {	
+	color:#000;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#2c9d91;
+	text-decoration: none;
+}
+
+a:active {
+	color:#2c9d91;
+	text-decoration: none;
+}
+
+h3 {
+	color:#2c9d91;
+	font-size:40px;
+	padding:10px 0px;
+	font-weight: lighter;
+}
+
+.site-name {
+	padding: 40px 0px;
+	margin-left: 100px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+	text-transform: uppercase; 
+}
+
+.nav-list{
+	padding-top: 25px;
+	margin-right: 50px;
+	text-align: right;
+	float: right;
+	overflow: hidden;
+	display: inline;
+	font-family: helvetica;
+	text-transform: uppercase; 
+	color: #aaaaaa;
+}
+
+.nav-list-item {
+	display: inline;
+	padding-right: 15px;
+}
+
+.main-content {
+/*	padding: 30px;*/
+	margin: 0 auto;
+	float:left;
+	overflow: hidden;
+}
+
+.main-content img {
+	width: 100%;
+/*	padding-bottom: 15px;*/
+}
+
+.about-content  {
+	width:1100px;
+	float:left;
+	margin-top: 40px;
+	margin-left: 140px;
+	clear: left;
+}
+
+.me img {
+	width:100%;
+	padding: 40px 0px;
+	display:inline-block;
+}
+
+.me {
+	overflow: hidden;
+	float:left;
+	width:50%;
+}
+
+.about-me {
+	width:50%;
+	float:left;
+	display:inline-block;
+	padding: 40px;
+	overflow: hidden;
+	line-height: 150%;
+	font-size: 20px;
+	font-weight:lighter;
+	color: #aaaaaa;
+}
+
+a.about-link {
+	color: #2c9d91;
+	text-decoration: underline;
+}
+
+a.about-link:hover {
+	color:#94efe9;
+}
+
+.project-content {
+	width:100%;
+	float:left;
+	margin-top: 40px;
+	margin-left: 140px;
+}
+
+.myCanvas {
+	padding-top: 40px;
+}
+
+
+
+
+
